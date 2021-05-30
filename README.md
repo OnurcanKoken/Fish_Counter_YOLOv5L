@@ -1,4 +1,4 @@
-# Crab_Detection_YOLOv5L
+# Fish_Detection_Counter_YOLOv5L
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/OnurcanKoken/Fish_Counter_YOLOv5L/blob/main/Fish_Detection_Counter_Colab_YOLOv5/Fish_Detection_Counter_Colab_YOLOv5.ipynb)
 
