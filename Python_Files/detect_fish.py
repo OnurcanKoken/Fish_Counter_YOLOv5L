@@ -100,7 +100,8 @@ def detect(save_img=False):
                 for c in det[:, -1].unique():
                     n = (det[:, -1] == c).sum()  # detections per class
                     s += f"{n} {names[int(c)]}{'s' * (n > 1)}, "  # add to string
-                    yeey += f"{n} {names[int(c)]}{'s' * (n > 1)}" # count and put # of classes on top left img
+                    # to count and put # of objects on top right img
+                    yeey += f"{n} {names[int(c)]}{'s' * (n > 1)}"
 
                 # Write results
                 for *xyxy, conf, cls in reversed(det):
